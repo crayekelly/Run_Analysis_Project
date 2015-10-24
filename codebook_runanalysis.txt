@@ -1,0 +1,62 @@
+Codebook for run_analysis
+
+
+Subject 
+	# of subject tested, total of 30 subjects included
+
+Activity 
+	Activity that is being performed, including: 
+
+		WALKING
+		WALKING_UPSTAIRS
+		WALKING_DOWNSTAIRS
+		SITTING
+		STANDING
+		LYING
+
+Features:
+	't-' denotes time captured at a constant rate of 50 Hz
+
+	'f-' denotes frequency domain, after Fast Fourier Transform (FFT)
+
+	'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
+	mean(): Mean value
+
+	std(): Standard deviation
+
+	meanFreq(): Weighted average of the frequency components to obtain a mean frequency
+
+	'-Acc-': measured by accelerometer
+
+	'-Gyro-': measured by gyroscope
+
+	'-Jerk-' : body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+
+	'-Mag-': magnitude of signals calculated using the Euclidean norm
+
+	'angle-': vectors obtained by averaging the signals in a signal window sample
+
+	tBodyAcc-XYZ
+	tGravityAcc-XYZ
+	tBodyAccJerk-XYZ
+	tBodyGyro-XYZ
+	tBodyGyroJerk-XYZ
+	tBodyAccMag
+	tGravityAccMag
+	tBodyAccJerkMag
+	tBodyGyroMag
+	tBodyGyroJerkMag
+	fBodyAcc-XYZ
+	fBodyAccJerk-XYZ
+	fBodyGyro-XYZ
+	"angle(tBodyAccMean,gravity)"
+	"angle(tBodyAccJerkMean),gravityMean)"
+	"angle(tBodyGyroMean,gravityMean)"
+	"angle(tBodyGyroJerkMean,gravityMean)"
+	"angle(XYZ,gravityMean)"
+	
+
+
+
+
